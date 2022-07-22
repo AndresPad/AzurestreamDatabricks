@@ -1,0 +1,48 @@
+{
+  "spark_conf.spark.databricks.cluster.profile": {
+    "type": "fixed",
+    "value": "serverless",
+    "hidden": true
+  },
+  "instance_pool_id": {
+    "type": "forbidden",
+    "hidden": true
+  },
+  "spark_version": {
+    "type": "regex",
+    "pattern": "7\\.[0-9]+\\.x-scala.*"
+  },
+  "node_type_id": {
+    "type": "allowlist",
+    "values": [
+      "Standard_L4s",
+      "Standard_L8s",
+      "Standard_L16s"
+    ],
+    "defaultValue": "Standard_L16s_v2"
+  },
+  "driver_node_type_id": {
+    "type": "fixed",
+    "value": "Standard_L16s_v2",
+    "hidden": true
+  },
+  "autoscale.min_workers": {
+    "type": "fixed",
+    "value": 1,
+    "hidden": true
+  },
+  "autoscale.max_workers": {
+    "type": "range",
+    "maxValue": 25,
+    "defaultValue": 5
+  },
+  "autotermination_minutes": {
+    "type": "fixed",
+    "value": 30,
+    "hidden": true
+  },
+  "custom_tags.team": {
+    "type": "fixed",
+    "value": "product"
+  }
+}

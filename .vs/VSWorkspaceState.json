@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\2.DeltaLake",
+    "\\2.DeltaLake\\Includes",
+    "\\3.StreamingPipelines",
+    "\\3.StreamingPipelines\\Includes",
+    "\\Assets\\images"
   ],
-  "SelectedNode": "\\C:\\Git\\Databricks\\AzurestreamDatabricks",
+  "SelectedNode": "\\3.StreamingPipelines\\Includes\\1.Environment-Setup.ipynb",
   "PreviewInSolutionExplorer": false
 }

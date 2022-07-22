@@ -1,0 +1,10 @@
+{
+  "spark_version": {
+    "type": "blocklist",
+    "values": [
+      "9.0.x-scala2.12",
+      "10.0.x-scala2.12",
+      "9.1.x-scala2.12"
+    ]
+  }
+}

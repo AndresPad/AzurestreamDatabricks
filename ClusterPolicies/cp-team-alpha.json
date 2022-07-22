@@ -1,0 +1,16 @@
+{
+  "spark_version": {
+    "type": "unlimited",
+    "isOptional": true,
+    "defaultValue": "10.0.x-scala2.12"
+  },
+  "custom_tags.Team": {
+    "type": "fixed",
+    "value": "alpha"
+  },
+  "autotermination_minutes": {
+    "type": "fixed",
+    "value": 30,
+    "hidden": false
+  }
+}

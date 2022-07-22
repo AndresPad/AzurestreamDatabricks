@@ -1,0 +1,12 @@
+{
+  "spark_version": {
+    "type": "fixed",
+    "value": "9.0.x-scala2.12",
+    "hidden": true
+  },
+  "autotermination_minutes": {
+    "type": "fixed",
+    "value": 30,
+    "hidden": true
+  }
+}

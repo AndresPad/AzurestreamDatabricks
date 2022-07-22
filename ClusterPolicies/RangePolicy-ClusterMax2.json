@@ -1,0 +1,6 @@
+{
+  "num_workers": {
+    "type": "range",
+    "maxValue": 2
+  }
+}
